@@ -1,0 +1,68 @@
+body{
+    background: url(img1.jpg);
+    background-size:cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: sans-serif;
+    
+}
+
+
+.wrapper{
+    background: rgba(255,255,255,0.2);
+    width:50%;
+    height: 50%;
+    padding: 10px ;  
+    border-radius: 20px;
+    overflow: hidden;
+}
+h1{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-weight:700 ;
+   text-transform: uppercase;
+}
+.input-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2px 0;
+}
+input{
+    background: rgba(255,255,255,0.2);
+    color: white;
+    outline: 0;
+    border: 0;
+    padding: 5px 10px;
+}
+.remember-forget{
+    display: flex;
+    justify-content: space-between;
+    color: rgb(206, 149, 233);
+}
+.remember-forget a {
+    text-decoration: none;
+    
+}
+.btn{
+    background: rgba(206, 149, 233,0.2);
+    color:  rgb(233, 209, 245);
+    font-size: x-large;
+    width: 100%;
+    height: 40%;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    
+}
+.registor-link{
+    color: rgb(206, 149, 233);
+
+}
+.registor-link a {
+    text-decoration: none;
+}
+
